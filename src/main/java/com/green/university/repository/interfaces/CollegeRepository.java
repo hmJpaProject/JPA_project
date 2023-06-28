@@ -5,9 +5,6 @@ import java.util.List;
 import org.apache.ibatis.annotations.Mapper;
 
 import com.green.university.dto.CollegeFormDto;
-import com.green.university.repository.model.College;
-
-import lombok.AllArgsConstructor;
 
 /*
  *  박성희

@@ -5,9 +5,6 @@ import java.util.List;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-import com.green.university.repository.model.CollTuit;
-import com.green.university.repository.model.Tuition;
-
 /**
  * @author 서영
  *

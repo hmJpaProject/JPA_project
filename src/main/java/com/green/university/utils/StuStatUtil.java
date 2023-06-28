@@ -5,8 +5,6 @@ import java.util.List;
 import org.springframework.http.HttpStatus;
 
 import com.green.university.handler.exception.CustomRestfullException;
-import com.green.university.repository.model.BreakApp;
-import com.green.university.repository.model.StuStat;
 
 public class StuStatUtil {
 

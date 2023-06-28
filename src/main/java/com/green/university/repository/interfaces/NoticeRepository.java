@@ -7,7 +7,6 @@ import org.apache.ibatis.annotations.Param;
 
 import com.green.university.dto.NoticeFormDto;
 import com.green.university.dto.NoticePageFormDto;
-import com.green.university.repository.model.Notice;
 
 /*
  *  박성희

@@ -16,10 +16,6 @@ import com.green.university.dto.CollegeFormDto;
 import com.green.university.dto.DepartmentFormDto;
 import com.green.university.dto.RoomFormDto;
 import com.green.university.dto.SubjectFormDto;
-import com.green.university.repository.model.College;
-import com.green.university.repository.model.Department;
-import com.green.university.repository.model.Room;
-import com.green.university.repository.model.Subject;
 import com.green.university.service.AdminService;
 
 /**

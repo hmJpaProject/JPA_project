@@ -8,7 +8,6 @@ import org.apache.ibatis.annotations.Param;
 import com.green.university.dto.response.StuSubAppDto;
 import com.green.university.dto.response.StuSubDayTimeDto;
 import com.green.university.dto.response.StuSubSumGradesDto;
-import com.green.university.repository.model.PreStuSub;
 
 /**
  * @author 서영

@@ -8,14 +8,9 @@ import com.green.university.dto.CreateProfessorDto;
 import com.green.university.dto.FindIdFormDto;
 import com.green.university.dto.FindPasswordFormDto;
 import com.green.university.dto.ProfessorListForm;
-import com.green.university.dto.StudentListForm;
 import com.green.university.dto.UserUpdateDto;
 import com.green.university.dto.response.ProfessorInfoDto;
 import com.green.university.dto.response.UserInfoForUpdateDto;
-import com.green.university.repository.model.Professor;
-import com.green.university.repository.model.Staff;
-import com.green.university.repository.model.Student;
-import com.green.university.repository.model.User;
 
 /**
  * Professor DAO

@@ -20,8 +20,6 @@ import com.green.university.repository.interfaces.StuSubDetailRepository;
 import com.green.university.repository.interfaces.StuSubRepository;
 import com.green.university.repository.interfaces.SubjectRepository;
 import com.green.university.repository.interfaces.SyllaBusRepository;
-import com.green.university.repository.model.Professor;
-import com.green.university.repository.model.Subject;
 
 /**
  * 

@@ -9,7 +9,6 @@ import org.springframework.validation.annotation.Validated;
 import com.green.university.dto.NoticeFormDto;
 import com.green.university.dto.NoticePageFormDto;
 import com.green.university.repository.interfaces.NoticeRepository;
-import com.green.university.repository.model.Notice;
 
 /**
  * 

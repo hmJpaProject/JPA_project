@@ -12,7 +12,6 @@ import com.green.university.dto.response.ReadSyllabusDto;
 import com.green.university.dto.response.SubjectDto;
 import com.green.university.dto.response.SubjectForProfessorDto;
 import com.green.university.dto.response.SubjectPeriodForProfessorDto;
-import com.green.university.repository.model.Subject;
 
 /*
  *  박성희

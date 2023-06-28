@@ -3,8 +3,6 @@ package com.green.university.utils;
 import java.util.List;
 
 import com.green.university.dto.SubjectFormDto;
-import com.green.university.repository.model.Subject;
-import com.green.university.service.AdminService;
 
 /**
  * 

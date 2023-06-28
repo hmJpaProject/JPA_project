@@ -14,10 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.green.university.dto.response.PrincipalDto;
 import com.green.university.handler.exception.CustomRestfullException;
-import com.green.university.repository.model.BreakApp;
-import com.green.university.repository.model.StuStat;
-import com.green.university.repository.model.Student;
-import com.green.university.repository.model.Tuition;
 import com.green.university.service.BreakAppService;
 import com.green.university.service.CollegeService;
 import com.green.university.service.StuStatService;

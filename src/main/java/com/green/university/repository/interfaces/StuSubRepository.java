@@ -10,8 +10,6 @@ import com.green.university.dto.response.StuSubSumGradesDto;
 import com.green.university.dto.response.StudentInfoForProfessorDto;
 import com.green.university.dto.response.StuSubAppDto;
 import com.green.university.dto.response.StuSubDayTimeDto;
-import com.green.university.repository.model.PreStuSub;
-import com.green.university.repository.model.StuSub;
 
 @Mapper
 public interface StuSubRepository {

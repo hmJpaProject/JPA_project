@@ -6,7 +6,6 @@ import org.apache.ibatis.annotations.Mapper;
 
 import com.green.university.dto.ScheduleDto;
 import com.green.university.dto.ScheduleFormDto;
-import com.green.university.repository.model.Schedule;
 
 @Mapper
 public interface ScheuleRepository { // todo ScheduleRepository로 변경

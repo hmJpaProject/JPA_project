@@ -11,12 +11,6 @@ import com.green.university.dto.response.GradeForScholarshipDto;
 import com.green.university.handler.exception.CustomRestfullException;
 import com.green.university.repository.interfaces.ScholarshipRepository;
 import com.green.university.repository.interfaces.TuitionRepository;
-import com.green.university.repository.model.BreakApp;
-import com.green.university.repository.model.Scholarship;
-import com.green.university.repository.model.StuSch;
-import com.green.university.repository.model.StuStat;
-import com.green.university.repository.model.Student;
-import com.green.university.repository.model.Tuition;
 import com.green.university.utils.Define;
 
 /**

@@ -10,7 +10,6 @@ import org.springframework.transaction.annotation.Transactional;
 import com.green.university.handler.exception.CustomRestfullException;
 import com.green.university.repository.interfaces.StuStatRepository;
 import com.green.university.repository.interfaces.StudentRepository;
-import com.green.university.repository.model.StuStat;
 
 /**
  * @author 서영

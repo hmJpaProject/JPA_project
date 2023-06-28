@@ -20,10 +20,6 @@ import com.green.university.repository.interfaces.DepartmentRepository;
 import com.green.university.repository.interfaces.RoomRepository;
 import com.green.university.repository.interfaces.SubjectRepository;
 import com.green.university.repository.interfaces.SyllaBusRepository;
-import com.green.university.repository.model.College;
-import com.green.university.repository.model.Department;
-import com.green.university.repository.model.Room;
-import com.green.university.repository.model.Subject;
 import com.green.university.utils.SubjectUtil;
 
 /**

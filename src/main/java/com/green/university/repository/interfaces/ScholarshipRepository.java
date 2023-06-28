@@ -3,9 +3,6 @@ package com.green.university.repository.interfaces;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-import com.green.university.repository.model.Scholarship;
-import com.green.university.repository.model.StuSch;
-
 /**
  * @author 서영
  *
