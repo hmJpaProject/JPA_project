@@ -6,7 +6,6 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import com.green.university.dto.response.StudentInfoStatListDto;
-import com.green.university.repository.model.StuStat;
 
 /**
  * @author 서영

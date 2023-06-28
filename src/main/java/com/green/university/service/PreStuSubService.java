@@ -13,8 +13,6 @@ import com.green.university.dto.response.StuSubSumGradesDto;
 import com.green.university.handler.exception.CustomRestfullException;
 import com.green.university.repository.interfaces.PreStuSubRepository;
 import com.green.university.repository.interfaces.SubjectRepository;
-import com.green.university.repository.model.PreStuSub;
-import com.green.university.repository.model.Subject;
 import com.green.university.utils.Define;
 import com.green.university.utils.StuSubUtil;
 

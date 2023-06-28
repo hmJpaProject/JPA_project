@@ -7,8 +7,6 @@ import org.springframework.stereotype.Service;
 
 import com.green.university.repository.interfaces.CollegeRepository;
 import com.green.university.repository.interfaces.DepartmentRepository;
-import com.green.university.repository.model.College;
-import com.green.university.repository.model.Department;
 
 /**
  * 

@@ -2,7 +2,6 @@ package com.green.university.controller;
 
 import java.util.List;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +17,6 @@ import com.green.university.dto.ScheduleDto;
 import com.green.university.dto.ScheduleFormDto;
 import com.green.university.dto.response.PrincipalDto;
 import com.green.university.handler.exception.CustomRestfullException;
-import com.green.university.repository.model.Schedule;
 import com.green.university.service.ScheuleService;
 import com.green.university.utils.Define;
 

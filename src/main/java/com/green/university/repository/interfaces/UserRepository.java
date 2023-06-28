@@ -4,7 +4,6 @@ import org.apache.ibatis.annotations.Mapper;
 
 import com.green.university.dto.ChangePasswordDto;
 import com.green.university.dto.response.PrincipalDto;
-import com.green.university.repository.model.User;
 
 @Mapper
 public interface UserRepository {

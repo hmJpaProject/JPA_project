@@ -8,7 +8,6 @@ import org.springframework.http.HttpStatus;
 import com.green.university.dto.response.StuSubDayTimeDto;
 import com.green.university.dto.response.StuSubSumGradesDto;
 import com.green.university.handler.exception.CustomRestfullException;
-import com.green.university.repository.model.Subject;
 
 /**
  * @author 서영

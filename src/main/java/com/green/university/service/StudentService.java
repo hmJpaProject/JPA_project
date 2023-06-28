@@ -8,7 +8,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.green.university.dto.StudentListForm;
 import com.green.university.repository.interfaces.StudentRepository;
-import com.green.university.repository.model.Student;
 
 /**
  * 학생 관련 서비스

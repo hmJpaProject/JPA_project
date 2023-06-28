@@ -1,12 +1,18 @@
 package com.green.university.repository.model;
 
-import lombok.Data;
+import javax.persistence.*;
 
-@Data
+@Entity
 public class User {
 
-	private Integer id;
-	private String password;
-	private String userRole;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+
+    @Column(nullable = false, length = 255)
+    private String password;
+
+    @Column(nullable = false, length = 10)
+    private String userRole;
 
 }

@@ -6,7 +6,6 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import com.green.university.dto.BreakAppFormDto;
-import com.green.university.repository.model.BreakApp;
 
 /**
  * @author 서영

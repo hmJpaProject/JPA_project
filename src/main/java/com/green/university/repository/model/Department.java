@@ -1,11 +1,20 @@
 package com.green.university.repository.model;
 
-import lombok.Data;
+import javax.persistence.*;
 
-@Data
+@Entity
 public class Department {
 
-	private Integer id;
-	private String name;
-	private Integer collegeId;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+
+    @Column(nullable = false, length = 10, unique = true)
+    private String name;
+
+    // Department : College = N : 1
+    @ManyToOne
+    @JoinColumn(name = "college_id")
+    private College collegeId;
+
 }

@@ -21,8 +21,6 @@ import com.green.university.dto.response.ReadSyllabusDto;
 import com.green.university.dto.response.StudentInfoForProfessorDto;
 import com.green.university.dto.response.SubjectForProfessorDto;
 import com.green.university.dto.response.SubjectPeriodForProfessorDto;
-import com.green.university.repository.model.Student;
-import com.green.university.repository.model.Subject;
 import com.green.university.service.ProfessorService;
 import com.green.university.service.StuSubService;
 import com.green.university.service.SubjectService;

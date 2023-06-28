@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.green.university.dto.AllSubjectSearchFormDto;
 import com.green.university.dto.response.ReadSyllabusDto;
 import com.green.university.dto.response.SubjectDto;
-import com.green.university.repository.model.Department;
 import com.green.university.service.CollegeService;
 import com.green.university.service.ProfessorService;
 import com.green.university.service.SubjectService;

@@ -27,9 +27,6 @@ import com.green.university.repository.interfaces.StaffRepository;
 import com.green.university.repository.interfaces.StuStatRepository;
 import com.green.university.repository.interfaces.StudentRepository;
 import com.green.university.repository.interfaces.UserRepository;
-import com.green.university.repository.model.Staff;
-import com.green.university.repository.model.Student;
-import com.green.university.repository.model.User;
 import com.green.university.utils.Define;
 import com.green.university.utils.TempPassword;
 

@@ -11,9 +11,6 @@ import com.green.university.dto.StudentListForm;
 import com.green.university.dto.UserUpdateDto;
 import com.green.university.dto.response.StudentInfoDto;
 import com.green.university.dto.response.UserInfoForUpdateDto;
-import com.green.university.repository.model.Professor;
-import com.green.university.repository.model.Student;
-import com.green.university.repository.model.User;
 
 /**
  * Student DAO
