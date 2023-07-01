@@ -21,6 +21,7 @@ public class Notice {
     private String title;
 
     @Column(nullable = false)
+    @Lob
     private String content;
 
     @Column(columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")

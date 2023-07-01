@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @Entity
 @Data
-public class StuSchTb {
+public class StuSch {
 
     @Id
     private Integer studentId;
