@@ -1,9 +1,12 @@
 package com.green.university.repository.model;
 
+import lombok.Data;
+
 import javax.persistence.*;
 
 @Entity
-public class ScholarshipTb {
+@Data
+public class Scholarship {
 
     // 장학금 유형
     @Id

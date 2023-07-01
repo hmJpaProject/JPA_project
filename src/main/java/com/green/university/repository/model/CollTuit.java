@@ -1,9 +1,12 @@
 package com.green.university.repository.model;
 
+import lombok.Data;
+
 import javax.persistence.*;
 
 @Entity
-public class CollTuitTb {
+@Data
+public class CollTuit {
 
     @Id
     @ManyToOne

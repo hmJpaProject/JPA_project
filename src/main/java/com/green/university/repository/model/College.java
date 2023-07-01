@@ -1,8 +1,11 @@
 package com.green.university.repository.model;
 
+import lombok.Data;
+
 import javax.persistence.*;
 
 @Entity
+@Data
 public class College {
 
     @Id
