@@ -1,8 +1,12 @@
 package com.green.university.repository.model;
 
+import lombok.Data;
+
 import javax.persistence.*;
 
+// 사용자
 @Entity
+@Data
 public class User {
 
     @Id

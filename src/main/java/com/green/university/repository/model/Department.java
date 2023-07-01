@@ -1,8 +1,12 @@
 package com.green.university.repository.model;
 
+import lombok.Data;
+
 import javax.persistence.*;
 
+// 학과
 @Entity
+@Data
 public class Department {
 
     @Id
@@ -15,6 +19,6 @@ public class Department {
     // Department : College = N : 1
     @ManyToOne
     @JoinColumn(name = "college_id")
-    private College collegeId;
+    private College college;
 
 }
