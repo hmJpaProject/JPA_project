@@ -4,16 +4,19 @@ import lombok.Data;
 
 import javax.persistence.*;
 
-// 단과대
+// 사용자
 @Entity
 @Data
-public class College {
+public class User {
 
-    // id를 입력하지 않을 경우 자동 AUTO_INCREMENT
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(nullable = false, length = 10, unique = true)
-    private String name;
+    @Column(nullable = false, length = 255)
+    private String password;
+
+    @Column(nullable = false, length = 10)
+    private String userRole;
+
 }

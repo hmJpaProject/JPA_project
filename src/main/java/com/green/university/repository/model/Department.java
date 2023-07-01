@@ -4,16 +4,21 @@ import lombok.Data;
 
 import javax.persistence.*;
 
-// 단과대
+// 학과
 @Entity
 @Data
-public class College {
+public class Department {
 
-    // id를 입력하지 않을 경우 자동 AUTO_INCREMENT
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column(nullable = false, length = 10, unique = true)
     private String name;
+
+    // Department : College = N : 1
+    @ManyToOne
+    @JoinColumn(name = "college_id")
+    private College college;
+
 }
